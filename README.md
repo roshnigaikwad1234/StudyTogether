@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# 🧠 StudyTogether – A Calm Space to Learn, Together
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+StudyTogether is a **collaborative study platform** designed to help students stay **focused, calm, and consistent** in their learning journey.  
+It creates a peaceful digital study room where learners can grow together **without pressure or unhealthy competition**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+<img width="1919" height="911" alt="Screenshot 2026-03-01 210556" src="https://github.com/user-attachments/assets/4ac655f3-be2c-4941-ab36-0bbf8dd1cd42" />
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌐 Live Demo
+👉 https://study-together-chi.vercel.app/socials
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🎥 Video Walkthrough
+👉 https://youtu.be/taJZkrejuts?si=hk-Qj1VF-tnNPhlY
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🏘️ Community & Purpose
+StudyTogether is built for **students who struggle with focus, consistency, and studying alone**.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As a student myself, I often felt distracted and unmotivated while studying.  
+This project was created to provide a **calm, supportive, and stress-free environment** where students can study together and build healthy habits.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Features
+- 🎯 **Simple Onboarding** – Set your name and daily study goal
+- ⏱️ **Focus Sessions** – Distraction-free focused study time
+- 🍅 **Pomodoro Timer** – Clean and minimal time management
+- 📚 **Reading Section** – Curated book suggestions with insights
+- 💬 **Motivation Feed** – Quotes and community study updates
+- 🎨 **Clean & Calm UI** – Soft colors and minimal design to reduce stress
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tech Stack
+- **Frontend**: React (Create React App)
+- **Routing**: React Router
+- **Styling**: CSS
+- **Deployment**: Vercel
+- **Version Control**: Git & GitHub
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1919" height="900" alt="Screenshot 2026-03-01 210530" src="https://github.com/user-attachments/assets/621b1047-3e8c-430a-8db2-c66541979a42" />
