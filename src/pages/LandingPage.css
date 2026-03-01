@@ -35,6 +35,14 @@
     z-index: 2;
 }
 
+[data-theme='dark'] .overlay {
+    background: linear-gradient(to bottom, rgba(26, 26, 46, 0.7), rgba(15, 15, 30, 0.8));
+}
+
+[data-theme='dark'] .landing-container {
+    background: #1a1a2e;
+}
+
 /* Floating Shapes */
 .shape {
     position: absolute;

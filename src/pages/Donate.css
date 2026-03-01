@@ -21,7 +21,7 @@
 }
 
 .donate-card {
-    background: white;
+    background: var(--card-bg);
     border-radius: 40px;
     overflow: hidden;
     display: flex;

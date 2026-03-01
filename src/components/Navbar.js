@@ -1,9 +1,11 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import { useTheme } from "./ThemeContext";
 import "./Navbar.css";
 
 const Navbar = () => {
   const location = useLocation();
+  const { theme, toggleTheme } = useTheme();
 
   const navItems = [
     { name: "Home", path: "/home", icon: "🏠" },
@@ -32,6 +34,9 @@ const Navbar = () => {
               <span className="nav-text">{item.name}</span>
             </Link>
           ))}
+          <button className="theme-toggle" onClick={toggleTheme} title="Toggle Theme">
+            {theme === 'light' ? '🌙' : '☀️'}
+          </button>
         </div>
       </div>
     </nav>

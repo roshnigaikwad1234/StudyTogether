@@ -28,7 +28,7 @@
 }
 
 .room-card {
-    background: white;
+    background: var(--card-bg);
     padding: 40px;
     border-radius: var(--border-radius);
     text-align: center;

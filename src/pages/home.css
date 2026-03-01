@@ -29,7 +29,7 @@
 }
 
 .dashboard-card {
-    background: white;
+    background: var(--card-bg);
     border-radius: var(--border-radius);
     padding: 30px;
     box-shadow: var(--shadow-subtle);

@@ -27,7 +27,7 @@
 }
 
 .social-card {
-    background: white;
+    background: var(--card-bg);
     padding: 40px;
     border-radius: var(--border-radius);
     text-align: center;
@@ -81,7 +81,7 @@
     margin-top: auto;
     width: 100%;
     padding: 15px;
-    background: var(--text-dark);
+    background: var(--accent-primary);
     color: white;
     font-weight: 700;
     border-radius: 12px;

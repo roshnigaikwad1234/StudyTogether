@@ -1,12 +1,12 @@
 :root {
-  /* Pastel Palette */
+  /* Pastel Palette - Original Light */
   --lavender: #e0d7f2;
   --sage-green: #d1e8e2;
   --warm-beige: #f5f0e1;
   --soft-blue: #d6eaf8;
   --soft-pink: #fce4ec;
 
-  /* Text Colors */
+  /* Text Colors - Original Light */
   --text-dark: #3a3a3a;
   --text-medium: #5a5a5a;
   --text-light: #8e8e8e;
@@ -17,11 +17,33 @@
   --accent-secondary: #27ae60;
   /* Soft Green */
   --bg-main: #fafafc;
+  --card-bg: #ffffff;
 
   /* Layout */
   --border-radius: 20px;
   --shadow-subtle: 0 10px 30px rgba(0, 0, 0, 0.05);
   --transition-gentle: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme='dark'] {
+  /* Peaceful Dark Pastel Palette */
+  --lavender: #413d5e;
+  --sage-green: #2d3e3a;
+  --warm-beige: #3c3a31;
+  --soft-blue: #2a3a4d;
+  --soft-pink: #44323a;
+
+  --text-dark: #f0f0f0;
+  --text-medium: #d1d1d1;
+  --text-light: #a0a0a0;
+
+  --accent-primary: #bb86fc;
+  --accent-secondary: #81c784;
+  --bg-main: #1a1a2e;
+  /* Deep navy instead of black */
+  --card-bg: #24243e;
+  /* Softer dark card background */
+  --shadow-subtle: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 * {
@@ -40,6 +62,7 @@ body {
   background-color: var(--bg-main);
   color: var(--text-dark);
   line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 code {
