@@ -1,0 +1,61 @@
+.contact-wrapper {
+    padding: 100px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-card {
+    background: white;
+    padding: 60px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: var(--shadow-subtle);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    width: 100%;
+}
+
+.contact-icon {
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+}
+
+.contact-card h1 {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+}
+
+.contact-card p {
+    color: var(--text-medium);
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.email-box {
+    padding: 25px;
+    background: var(--lavender);
+    border-radius: 20px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+    transition: var(--transition-gentle);
+}
+
+.email-box a {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--accent-primary);
+    text-decoration: underline;
+}
+
+.email-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(155, 89, 182, 0.1);
+}
+
+.footer-note {
+    font-style: italic;
+    font-size: 0.95rem;
+    color: var(--text-light) !important;
+}

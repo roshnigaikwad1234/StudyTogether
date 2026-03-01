@@ -1,0 +1,44 @@
+/* Global Utility Classes for the New Design System */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Modal / Card Overlays */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--border-radius);
+}
+
+/* Animations */
+.hover-lift {
+  transition: var(--transition-gentle);
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive Hide/Show */
+@media (max-width: 768px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+/* Base Styles Transition */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}

@@ -1,0 +1,223 @@
+.dashboard-wrapper {
+    padding: 40px 20px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.dashboard-header h1 {
+    font-size: 3rem;
+    color: var(--text-dark);
+    margin-bottom: 10px;
+}
+
+.dashboard-header p {
+    font-size: 1.2rem;
+    color: var(--text-medium);
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+.dashboard-card {
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 30px;
+    box-shadow: var(--shadow-subtle);
+    transition: var(--transition-gentle);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.card-header .icon {
+    font-size: 2rem;
+    margin-right: 15px;
+}
+
+.card-header h3 {
+    font-size: 1.4rem;
+    color: var(--text-dark);
+    font-weight: 700;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+/* Focus Card */
+.rooms-preview {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.room-pill {
+    padding: 8px 15px;
+    background: var(--sage-green);
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.dashboard-btn {
+    width: 100%;
+    padding: 15px;
+    background: var(--accent-primary);
+    color: white;
+    font-weight: 700;
+    border-radius: 12px;
+    margin-top: 15px;
+    transition: var(--transition-gentle);
+}
+
+.dashboard-btn:hover {
+    filter: brightness(1.1);
+}
+
+/* Pomodoro Card */
+.timer-display {
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--accent-primary);
+    margin-bottom: 20px;
+    font-variant-numeric: tabular-nums;
+}
+
+.timer-controls {
+    display: flex;
+    justify-content: center;
+}
+
+.timer-btn {
+    padding: 10px 25px;
+    background: var(--warm-beige);
+    color: var(--text-dark);
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.timer-tip {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-top: 15px;
+}
+
+/* Motivation Card */
+.quote {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: var(--text-dark);
+    line-height: 1.5;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    border-left: 4px solid var(--lavender);
+}
+
+.community-feed {
+    background: var(--bg-main);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.feed-item {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 0.9rem;
+}
+
+.feed-item:last-child {
+    border-bottom: none;
+}
+
+.feed-item .name {
+    font-weight: 700;
+    color: var(--accent-primary);
+    margin-right: 5px;
+}
+
+.feed-item .detail {
+    color: var(--text-medium);
+}
+
+/* Books Card */
+.book-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.book-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.book-cover {
+    width: 60px;
+    height: 80px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+.book-cover.coral {
+    background: #ff7675;
+}
+
+.book-cover.blue {
+    background: #74b9ff;
+}
+
+.book-cover.green {
+    background: #55efc4;
+}
+
+.book-info h4 {
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+.book-info p {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    line-height: 1.3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .dashboard-header h1 {
+        font-size: 2rem;
+    }
+
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+}
